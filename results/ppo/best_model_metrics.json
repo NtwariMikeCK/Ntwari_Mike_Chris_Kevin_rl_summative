@@ -1,0 +1,10 @@
+{
+  "best_run_id": "ppo_09",
+  "success_rate": 0.0,
+  "avg_reward": -112.61666666666666,
+  "reward_std": 48.865407555402165,
+  "avg_steps": 22.966666666666665,
+  "avg_battery_left": 0.0,
+  "avg_hazard_violations": 5.866666666666666,
+  "avg_path_efficiency": 1.1427979469299316
+}

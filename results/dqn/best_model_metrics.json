@@ -1,0 +1,19 @@
+{
+  "best_run_id": "dqn_03",
+  "success_rate": 0.0,
+  "avg_reward": -110.26666666666667,
+  "reward_std": 35.15269864778836,
+  "avg_steps": 32.2,
+  "avg_battery_left": 38.45,
+  "avg_hazard_violations": 5.033333333333333,
+  "avg_path_efficiency": 1.0204954147338867,
+  "terminal_events": {
+    "Battery depleted": 14,
+    "Entered no-fly zone": 7,
+    "Crashed into mountain": 9
+  },
+  "milestone_funnel": {
+    "visited_charger": 3.3,
+    "reached_clinic": 6.7
+  }
+}

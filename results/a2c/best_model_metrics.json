@@ -1,0 +1,10 @@
+{
+  "best_run_id": "a2c_10",
+  "success_rate": 0.0,
+  "avg_reward": -117.78333333333333,
+  "reward_std": 44.12532971233441,
+  "avg_steps": 22.5,
+  "avg_battery_left": 15.969638974080963,
+  "avg_hazard_violations": 3.3333333333333335,
+  "avg_path_efficiency": 1.1950613260269165
+}
