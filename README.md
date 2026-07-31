@@ -67,7 +67,7 @@ comparisons.
 ```bash
 uv sync
 uv run main.py --episodes 3 --policy heuristic          # environment demo, no trained model needed
-uv run training/play_best_agent.py --algo ppo --model models/ppo/ppo_01.zip   # after downloading a trained model from Drive
+uv run training/play_best_agent.py --algo ppo --model models/ppo/ppo_best_1.zip
 ```
 
 ## Controls (once the intro flythrough finishes)
