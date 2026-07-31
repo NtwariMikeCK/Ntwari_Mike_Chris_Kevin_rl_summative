@@ -10,6 +10,7 @@ randomized mission each episode.
 project_root/
 ├── pyproject.toml
 ├── main.py                  # demo runner (cinematic camera + heuristic/random agent)
+├── play.py
 ├── environment/
 │   ├── custom_env.py        # Gymnasium env: spaces, dynamics, reward function
 │   └── rendering.py         # Pygame renderer: terrain, sprites, camera system
@@ -67,7 +68,7 @@ comparisons.
 ```bash
 uv sync
 uv run main.py --episodes 3 --policy heuristic          # environment demo, no trained model needed
-uv run training/play_best_agent.py --algo ppo --model models/ppo/ppo_best_1.zip
+uv run play.py --algo ppo --model models/ppo/ppo_best_1.zip
 ```
 
 ## Controls (once the intro flythrough finishes)
